@@ -1,0 +1,105 @@
+{
+  "metaTitle": "Josue Uriarte",
+  "metaDescription": "JosuePFP",
+  "name": "Josue Uriarte",
+  "bio": "I code and make art. When the stars align and with a little bit of luck, I make some cool games.",
+  "theme": "gallery",
+  "avatarImage": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/profilePicture.png?v=1671793385706",
+  
+  "linkHeader": "University Projects 🐌",
+  "linkbio": "Collection of games I worked on during my time at UC Santa Cruz.",
+  "links": [
+    {
+      "url": "gh.html",
+      "text": "Grand Heresy",
+      "img":"https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/GH_Logo_Black.png?v=1671841424527",
+      "altText": "Grand Heresy Game",
+      "body": "Capstone game"
+    },
+    {
+      "url": "games/wsf.html",
+      "text": "WallStreet Fighter",
+      "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/WS-Fighter-transformed.png?v=1672018945551",
+      "altText": "WallStreetFighter"
+    },
+    {
+      "url": "games/fwr.html",
+      "text": "Freeway Run",
+      "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/SMALLERTITLE_FWR.png?v=1672019273037"
+    },
+    {
+      "url": "games/pksm.html",
+      "text": "Parkouring Stick-Man",
+      "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/StickmanCover.png?v=1672019682131"
+    },
+    {
+      "url": "games/tp.html",
+      "text": "Tron patrol",
+      "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/TronPatrol1_clipdrop-enhance%20(1).png?v=1672019417815"
+    }
+  ],
+  
+  "textlinks": [
+    {
+      "url": "https://www.albinoblacksheep.com/flash/badgers",
+      "text": "Musical Block Stacking"
+    },
+    {
+      "url": "https://www.albinoblacksheep.com/flash/badgers",
+      "text": "Immersive Asteroids"
+    },
+    {
+      "url": "https://www.albinoblacksheep.com/flash/badgers",
+      "text": "Classic Clone Chimera"
+    },
+    {
+      "url": "https://www.albinoblacksheep.com/flash/badgers",
+      "text": "Zombie AI Project"
+    },
+    {
+      "url": "https://www.albinoblacksheep.com/flash/badgers",
+      "text": "Tempout"
+    },
+    {
+      "url": "https://www.albinoblacksheep.com/flash/badgers",
+      "text": "Bean Warfare"
+    },
+    {
+      "url": "https://www.albinoblacksheep.com/flash/badgers",
+      "text": "Bixie"
+    }
+  ],
+  
+  "social": {
+    "glitch": "",
+    "arena":"",
+    "bandcamp": "",
+    "cohost":"",
+    "dev": "",    
+    "facebook": "",
+    "github": "https://github.com/JosueUriarte",
+    "gitlab": "",
+    "hashnode": "",
+    "instagram": "",
+    "keybase":"",
+    "kofi": "",
+    "letterboxd":"",
+    "linkedin": "https://www.linkedin.com/in/josue-armando-uriarte-reyes-2693281aa/",
+    "mastodon": "",
+    "medium": "",
+    "patreon": "",
+    "pinboard":"",
+    "pinterest": "",
+    "podcast": "",
+    "soundcloud": "",
+    "spotify": "",
+    "stackoverflow": "",
+    "substack": "",
+    "twitter": "https://twitter.com/n3wtWorldOrder",
+    "twitch": "",
+    "tiktok": "",
+    "tumblr": "",
+    "youtube": "",
+    "email": "uriartejosue@gmail.com"
+  }
+}
