@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ settings.metaTitle }}</title>
+    
+    {{> head }}
+    
+    <link rel="stylesheet" type="text/css" href="/styles/themes/{{settings.theme}}.css" />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        
+        <div class="header">
+          
+          <div class="info">
+            {{> avatar }}
+            
+            <div class="about">
+              {{> name }}
+              {{> bio }}
+            </div>
+            
+          </div>
+          
+          {{> social }}
+          
+        </div>
+        
+        <div class="content">
+          {{> links }}
+          {{> text-links }}
+        </div>
+        
+        <div class="footer">
+          {{> footer}}
+        </div>
+        
+      </div>
+
+    </main>
+  </body>
+</html>
