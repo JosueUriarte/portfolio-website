@@ -13,23 +13,23 @@ export default defineConfig(async ({ command, mode }) => {
         helpers: {
           hostasclass: value => new URL(value).hostname.replace(/\./g, "_")
         },
-        reloadOnPartialChange: true
+      //   reloadOnPartialChange: true
       })
-    ],
-    build: {
-      cssCodeSplit: false,
-      outDir: "build"
-    },
-    optimizeDeps: {
-      exclude: ['./settings.json']
-    },
-    server: {
-      host:"0.0.0.0",
-      port:3000,
-      strictPort: true,
-      hmr: {
-        clientPort: 443
-      }
-    }
+    ]
+  //   build: {
+  //     cssCodeSplit: false,
+  //     outDir: "build"
+  //   },
+  //   optimizeDeps: {
+  //     exclude: ['./settings.json']
+  //   },
+  //   server: {
+  //     host:"0.0.0.0",
+  //     port:3000,
+  //     strictPort: true,
+  //     hmr: {
+  //       clientPort: 443
+  //     }
+  //   }
   };
 });
