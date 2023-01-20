@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ settings.metaTitle }}</title>
+    
+    {{> head }}
+    
+    <link rel="stylesheet" type="text/css" href="/styles/themes/{{settings.theme}}.css" />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        
+        <div class="header">
+          
+          <div class="info">
+            {{> avatar }}
+            
+            <div class="about">
+              {{> name }}
+              {{> bio }}
+            </div>
+            
+          </div>
+          
+          {{> social }}
+          
+        </div>
+        
+        <div class="content">
+          
+          <h1>Grand Heresy</h1>
+          <img class="postcard" src="https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/63e6b141-706e-4a5d-94e6-42f1d538156d.image.png?v=1672054684889" alt="{{gameinfo.text}}"/>
+
+        </div>
+        
+        <p class="game-bio">
+          A game that came to be because we wanted to make "Helldivers but Ps1 Aesthetics but also DOOM".
+          This game was made as my senior year capstone final project. It was made with a bunch of talented university friends!
+          It was...painful to make.. but still a fun experience!
+        </p>
+        
+        <h3 class="game-bio">
+          --><a class="game-bio" href="https://www.grandheresygame.com"> Visit website </a>
+        </h3>
+        
+        <div class="footer">
+          {{> footer}}
+        </div>
+        
+      </div>
+
+    </main>
+  </body>
+</html>

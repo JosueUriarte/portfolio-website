@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ settings.metaTitle }}</title>
+    
+    {{> head }}
+    
+    <link rel="stylesheet" type="text/css" href="/styles/themes/{{settings.theme}}.css" />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        
+        <div class="header">
+          
+          <div class="info">
+            {{> avatar }}
+            
+            <div class="about">
+              {{> name }}
+              {{> bio }}
+            </div>
+            
+          </div>
+          
+          {{> social }}
+          
+        </div>
+        
+        <div class="content">
+          
+          <h1>Freeway Run</h1>
+          <img class="postcard" src="https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/fwr.png?v=1672131114036"/>
+
+        </div>
+        
+        <p class="game-bio">
+          The second game made using the Phaser3 framework. It's legit just a simple infinite scroller
+          through the lens of a kid in the passenger seat. I did programming, logo art, and also music!
+          Try it out at the link below!
+        </p>
+        
+        <div class="game-bio">
+          <iframe frameborder="0" src="https://itch.io/embed/1106486?border_width=5&amp;bg_color=cf03d6&amp;fg_color=ffffff&amp;link_color=25ed72&amp;border_color=000000" width="560" height="175"><a href="https://josue-uriarte-reyes.itch.io/freeway-run">Freeway Run by n3wt</a></iframe>
+        </div>
+        
+        <div class="footer">
+          {{> footer}}
+        </div>
+        
+      </div>
+
+    </main>
+  </body>
+</html>
