@@ -66,6 +66,7 @@ ul.text-link-list :hover span {
 
 body {
   text-align: center;
+  background-color: var(--color-bg);
 }
 
 .wrapper {

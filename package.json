@@ -1,21 +1,23 @@
 {
   "name": "josue-portfolio",
-  "version": "0.0.1",
-  "description": "A game portfolio built with vite.",
+  "version": "0.0.0",
+  "description": "A game portfolio built with vite!",
   "main": "index.html",
-  "homepage": "https://github.com/JosueUriarte/portfolio-website",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "release": "auto shipit"
+    "release": "auto shipit",
+    "dev": "node"
   },
   "devDependencies": {
     "@auto-it/all-contributors": "^10.32.2",
     "@auto-it/first-time-contributor": "^10.32.2",
     "@auto-it/git-tag": "^10.32.3",
     "@auto-it/released": "^10.32.2",
+    "@vitejs/plugin-basic-ssl": "1.0.1",
     "@glitchdotcom/vite-plugin-handlebars": "^1.6.2",
+    "vite-plugin-mkcert" : "^1.11.0",
     "auto": "^10.32.2",
     "vite": "^4.0.0"
   },
@@ -24,7 +26,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "14.x"
+    "node": "^18.x"
   },
   "author": "Josue Uriarte",
   "auto": {
@@ -35,5 +37,8 @@
       "git-tag"
     ],
     "onlyPublishWithReleaseLabel": true
+  },
+  "dependencies": {
+    "vite-plugin-handlebars": "^1.6.0"
   }
 }
