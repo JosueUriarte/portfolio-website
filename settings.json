@@ -14,21 +14,22 @@
       "text": "Grand Heresy",
       "img":"https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/GH_Logo_Black.png?v=1671841424527",
       "altText": "Grand Heresy Game",
-      "body": "Capstone game"
+      "body": "Capstone game",
+      "gamebio": "A game that came to be because we wanted to make 'Helldivers but Ps1 Aesthetics but also DOOM'. This game was made as my senior year capstone final project. It was made with a bunch of talented university friends! It was...painful to make.. but still a fun experience!"
     },
     {
-      "url": "wsf.html",
+      "url": "wallStreetFighter/index.html",
       "text": "WallStreet Fighter",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/WS-Fighter-transformed.png?v=1672018945551",
       "altText": "WallStreetFighter"
     },
     {
-      "url": "fwr.html",
+      "url": "freewayRun/index.html",
       "text": "Freeway Run",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/SMALLERTITLE_FWR.png?v=1672019273037"
     },
     {
-      "url": "pksm.html",
+      "url": "closedDoors/index.html",
       "text": "Parkouring Stick-Man",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/StickmanCover.png?v=1672019682131"
     },
@@ -36,6 +37,11 @@
       "url": "tp.html",
       "text": "Tron patrol",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/TronPatrol1_clipdrop-enhance%20(1).png?v=1672019417815"
+    },
+    {
+      "url": "closedDoors/index.html",
+      "text": "Closed Doors",
+      "img": ""
     }
   ],
   

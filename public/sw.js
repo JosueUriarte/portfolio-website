@@ -14,7 +14,7 @@ self.addEventListener("install", e => {
         "/",
         "/settings.json",
         "/styles/style.css",
-        "/styles/gallery.css",
+        "/styles/themes/gallery.css",
         "/styles/themes/testing.txt",
       ]);
     })

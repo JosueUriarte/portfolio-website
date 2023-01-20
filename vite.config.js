@@ -41,6 +41,9 @@ export default defineConfig(({ command, mode }) => {
           input: {
             main: resolve(__dirname, "index.html"),
             grand: resolve(__dirname, "grandHeresy/index.html"),
+            free: resolve(__dirname, "freewayRun/index.html"),
+            wall: resolve(__dirname, "wallStreetFighter/index.html"),
+            doors: resolve(__dirname, "closedDoors/index.html"),
           }
         }
       },
