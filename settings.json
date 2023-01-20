@@ -10,30 +10,30 @@
   "linkbio": "Collection of games I worked on during my time at UC Santa Cruz.",
   "links": [
     {
-      "url": "games/gh.html",
+      "url": "grandHeresy/index.html",
       "text": "Grand Heresy",
       "img":"https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/GH_Logo_Black.png?v=1671841424527",
       "altText": "Grand Heresy Game",
       "body": "Capstone game"
     },
     {
-      "url": "games/wsf.html",
+      "url": "wsf.html",
       "text": "WallStreet Fighter",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/WS-Fighter-transformed.png?v=1672018945551",
       "altText": "WallStreetFighter"
     },
     {
-      "url": "games/fwr.html",
+      "url": "fwr.html",
       "text": "Freeway Run",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/SMALLERTITLE_FWR.png?v=1672019273037"
     },
     {
-      "url": "games/pksm.html",
+      "url": "pksm.html",
       "text": "Parkouring Stick-Man",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/StickmanCover.png?v=1672019682131"
     },
     {
-      "url": "games/tp.html",
+      "url": "tp.html",
       "text": "Tron patrol",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/TronPatrol1_clipdrop-enhance%20(1).png?v=1672019417815"
     }

@@ -18,7 +18,9 @@ export default defineConfig(({ command, mode }) => {
           reloadOnPartialChange: true
         }),
       ],
+      base: "/portfolio-website/",
       root: '.',
+
       // server: {
       //   https: true,
       //   host: true,
@@ -28,12 +30,19 @@ export default defineConfig(({ command, mode }) => {
       //     clientPort: 443
       //   }
       // },
+      
       optimizeDeps:{
         exclude: ['./settings.json']
       },
       build: {
         cssCodeSplit: false,
-        outDir: "build"
+        outDir: "build",
+        rollupOptions: {
+          input: {
+            main: resolve(__dirname, "index.html"),
+            grand: resolve(__dirname, "grandHeresy/index.html"),
+          }
+        }
       },
     }
 })
