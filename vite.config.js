@@ -30,7 +30,7 @@ export default defineConfig(({ command, mode }) => {
       //     clientPort: 443
       //   }
       // },
-      
+
       optimizeDeps:{
         exclude: ['./settings.json']
       },
@@ -49,4 +49,6 @@ export default defineConfig(({ command, mode }) => {
       },
     }
 })
+
+
 
