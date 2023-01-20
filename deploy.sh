@@ -17,7 +17,7 @@ npm run build
 
 # git init
 # git checkout -B main
-# git add -A
+git add -A
 git commit -m "Deploying from Vite"
 
 # if you are deploying to https://<USERNAME>.github.io
