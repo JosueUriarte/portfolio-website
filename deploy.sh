@@ -17,6 +17,7 @@ npm run build
 
 # git init
 git checkout gh-pages
+git pull -A
 git add -A
 git commit -m "Deploying from Vite new"
 
