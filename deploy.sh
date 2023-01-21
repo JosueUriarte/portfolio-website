@@ -17,15 +17,14 @@ npm run build
 
 # git init
 git checkout gh-pages
-git add -A
-git commit -m "Deploying from Vite new"
+git commit -am "Deploying from Vite new"
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 #git push -f git@github.com:JosueUriarte/portfolio-website.git main:gh-pages
-git subtree push --prefix build origin main:gh-pages
+git subtree push --prefix build origin gh-pages
 
 # git checkout main
 cd -
