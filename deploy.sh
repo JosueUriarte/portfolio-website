@@ -16,7 +16,7 @@ npm run build
 # echo 'www.josueuriarte.dev' > CNAME
 
 # git init
-# git checkout -B main
+git checkout gh-pages
 git add -A
 git commit -m "Deploying from Vite"
 
