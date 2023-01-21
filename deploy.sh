@@ -18,7 +18,7 @@ npm run build
 # git init
 git checkout gh-pages
 git add -A
-git commit -m "Deploying from Vite"
+git commit -m "Deploying from Vite new"
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
@@ -32,4 +32,4 @@ cd -
 # This link helped me deploy the website better
 # https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
 
-# $ git subtree push --prefix build origin gh-pages
+# git subtree push --prefix build origin gh-pages
