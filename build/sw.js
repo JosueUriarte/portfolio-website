@@ -12,7 +12,6 @@ self.addEventListener("install", e => {
       // Cache the homepage and stylesheets - add any assets you want to cache!
       return cache.addAll([
         "/",
-        "/settings.json",
         "/styles/style.css",
         "/styles/themes/gallery.css",
         "/styles/themes/testing.txt",
