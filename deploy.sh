@@ -26,7 +26,7 @@ git commit -m "Deploying from Vite new"
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 #git push -f git@github.com:JosueUriarte/portfolio-website.git main:gh-pages
-git subtree push --prefix build origin gh-pages
+git subtree push --prefix build origin main:gh-pages
 
 # git checkout main
 cd -
