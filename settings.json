@@ -10,7 +10,7 @@
   "linkbio": "Collection of games I worked on during my time at UC Santa Cruz!",
   "links": [
     {
-      "url": "grandHeresy/index.html",
+      "url": "/grandHeresy/index.html",
       "text": "Grand Heresy",
       "img":"https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/GH_Logo_Black.png?v=1671841424527",
       "altText": "Grand Heresy Game",
