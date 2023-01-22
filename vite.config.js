@@ -18,8 +18,8 @@ export default defineConfig(({ command, mode }) => {
           reloadOnPartialChange: true
         }),
       ],
-      base: "/portfolio-website/",
-      root: './',
+      //base: "/portfolio-website/",
+      root: '.',
 
       // server: {
       //   https: true,

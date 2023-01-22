@@ -13,8 +13,8 @@ self.addEventListener("install", e => {
       return cache.addAll([
         "/",
         "/styles/style.css",
-        "styles/themes/gallery.css",
-        "styles/themes/testing.txt",
+        "/styles/themes/gallery.css",
+        "/styles/themes/testing.txt",
       ]);
     })
   );
