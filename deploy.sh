@@ -34,7 +34,7 @@ git push
 # git push -f git@github.com:JosueUriarte/portfolio-website.git main:gh-pages
 
 # git checkout main
-# cd -
+cd -
 
 # This link helped me deploy the website better
 # https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
