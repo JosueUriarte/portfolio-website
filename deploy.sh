@@ -24,7 +24,7 @@ git status
 # git checkout -B main
 git add -A
 git commit -m 'deploying new Vite Build'
-git push
+git push portfolio-website gh-pages
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
