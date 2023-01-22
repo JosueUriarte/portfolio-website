@@ -22,6 +22,7 @@ git checkout gh-pages
 # git checkout -B main
 git add -A
 git commit -m 'deploying new Vite Build'
+git status
 git push
 
 # if you are deploying to https://<USERNAME>.github.io
