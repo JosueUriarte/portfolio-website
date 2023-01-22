@@ -1,3 +1,3 @@
 # portfolio-website
-custom domain: in progress
+custom domain: https://www.josueuriarte.dev/
 github pages: https://josueuriarte.github.io/portfolio-website/
