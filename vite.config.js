@@ -19,7 +19,7 @@ export default defineConfig(({ command, mode }) => {
         }),
       ],
       base: "/portfolio-website/",
-      root: '.',
+      root: './',
 
       // server: {
       //   https: true,

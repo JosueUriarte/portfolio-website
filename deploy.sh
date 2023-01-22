@@ -63,7 +63,7 @@ echo 'www.josueuriarte.dev' > CNAME
 git init
 git checkout -B main
 git add -A
-git commit -m 'Deploying!!'
+git commit -m 'Deploying!!! Deployed on: `date`'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
