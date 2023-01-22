@@ -18,7 +18,7 @@ export default defineConfig(({ command, mode }) => {
           reloadOnPartialChange: true
         }),
       ],
-      //base: "/portfolio-website/",
+      
       root: '.',
 
       // server: {
