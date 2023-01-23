@@ -9,7 +9,7 @@ self.addEventListener("install", e => {
   e.waitUntil(
     // Give the cache a name
     caches.open("josue-portfolio-pwa").then(cache => {
-      // Cache the homepage and stylesheets - add any assets you want to cache!
+      // Cache the homepage and stylesheets
       return cache.addAll([
         "/",
         "/styles/style.css",
