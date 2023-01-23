@@ -40,8 +40,8 @@
     },
     {
       "url": "closedDoors/index.html",
-      "text": "Closed Doors :))",
-      "img": ""
+      "text": "Closed Doors",
+      "img": "assets/closedDoors_dev_0.png"
     }
   ],
   
@@ -102,6 +102,7 @@
     "stackoverflow": "",
     "substack": "",
     "twitter": "https://twitter.com/n3wtWorldOrder",
+    "itchio": "https://n3wtworldorder.itch.io/",
     "twitch": "",
     "tiktok": "",
     "tumblr": "",

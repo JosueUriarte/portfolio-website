@@ -21,15 +21,15 @@ export default defineConfig(({ command, mode }) => {
       
       root: '.',
 
-      // server: {
-      //   https: true,
-      //   host: true,
-      //   port:3000,
-      //   strictPort: true,
-      //   hmr: {
-      //     clientPort: 443
-      //   }
-      // },
+      server: {
+        https: true,
+        // host: true,
+        // port:3000,
+        // strictPort: true,
+        // hmr: {
+        //   clientPort: 443
+        // }
+      },
 
       optimizeDeps:{
         exclude: ['./settings.json']
