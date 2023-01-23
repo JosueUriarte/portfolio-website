@@ -41,7 +41,7 @@ START Page structure and element resets
 }
 
 /* Basic page style resets */
-* {
+*{
   box-sizing: border-box;
 }
 
@@ -49,6 +49,7 @@ START Page structure and element resets
 body {
   font-family: var(--font-family);
   background-color: var(--color-bg);
+  max-width: 100%;
 }
 
 h1,
@@ -129,6 +130,30 @@ ul.link-list a span {
   padding-right: 1rem;
 }
 
+.postcard-holder{
+  justify-items: center;
+}
+
+img.postcard {
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.itch-wrap {
+  position: relative;
+}
+
+/* iframe.itch-box{
+  width: 100%;
+  height: 100%;
+} */
+
 /* Social media icons */
 /* Page will display all icons that have a value in settings.json social object */
 .social-icons {
@@ -152,10 +177,6 @@ ul.link-list a span {
 }
 .social-profile-icon:hover path, .social-profile-icon:focus path {
   fill: var(--color-text-main);
-}
-
-li.text-linked-list {
-  
 }
 
 /******************************************************************************

@@ -44,6 +44,8 @@ export default defineConfig(({ command, mode }) => {
             free: resolve(__dirname, "freewayRun/index.html"),
             wall: resolve(__dirname, "wallStreetFighter/index.html"),
             doors: resolve(__dirname, "closedDoors/index.html"),
+            stick: resolve(__dirname, "parkouringStickman/index.html"),
+            tron: resolve(__dirname, "tronPatrol/index.html"),
           }
         }
       },
