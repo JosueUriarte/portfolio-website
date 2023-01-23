@@ -41,11 +41,11 @@ export default defineConfig(({ command, mode }) => {
           input: {
             main: resolve(__dirname, "index.html"),
             grand: resolve(__dirname, "games/grandHeresy/index.html"),
-            free: resolve(__dirname, "freewayRun/index.html"),
-            wall: resolve(__dirname, "wallStreetFighter/index.html"),
-            doors: resolve(__dirname, "closedDoors/index.html"),
-            stick: resolve(__dirname, "parkouringStickman/index.html"),
-            tron: resolve(__dirname, "tronPatrol/index.html"),
+            free: resolve(__dirname, "games/freewayRun/index.html"),
+            wall: resolve(__dirname, "games/wallStreetFighter/index.html"),
+            doors: resolve(__dirname, "games/closedDoors/index.html"),
+            stick: resolve(__dirname, "games/parkouringStickman/index.html"),
+            tron: resolve(__dirname, "games/tronPatrol/index.html"),
           }
         }
       },
