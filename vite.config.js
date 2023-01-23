@@ -10,7 +10,7 @@ export default defineConfig(({ command, mode }) => {
       plugins: [
         mkcert(),
         handlebars({
-          partialDirectory: resolve(__dirname, './layout'),
+          partialDirectory: resolve(__dirname, './partials'),
           settingsFile: 'settings.json',
           helpers: {
             hostasclass: value => new URL(value).hostname.replace(/\./g, "_")
@@ -40,7 +40,7 @@ export default defineConfig(({ command, mode }) => {
         rollupOptions: {
           input: {
             main: resolve(__dirname, "index.html"),
-            grand: resolve(__dirname, "grandHeresy/index.html"),
+            grand: resolve(__dirname, "games/grandHeresy/index.html"),
             free: resolve(__dirname, "freewayRun/index.html"),
             wall: resolve(__dirname, "wallStreetFighter/index.html"),
             doors: resolve(__dirname, "closedDoors/index.html"),

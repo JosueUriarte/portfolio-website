@@ -10,38 +10,39 @@
   "linkbio": "Collection of games I worked on during my time at UC Santa Cruz!",
   "links": [
     {
-      "url": "grandHeresy/index.html",
+      "url": "games/grandHeresy/index.html",
       "text": "Grand Heresy",
       "img":"https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/GH_Logo_Black.png?v=1671841424527",
       "altText": "Grand Heresy Game",
       "body": "Capstone game",
-      "gamebio": "A game that came to be because we wanted to make 'Helldivers but Ps1 Aesthetics but also DOOM'. This game was made as my senior year capstone final project. It was made with a bunch of talented university friends! It was...painful to make.. but still a fun experience!"
+      "gamebio": "A game that came to be because we wanted to make 'Helldivers but Ps1 Aesthetics but also DOOM'. This game was made as my senior year capstone final project and was made alongside a bunch my talented university colleagues! This game was super difficult to make as a newbie gameplay programmer but i'm thankful for that because I came out stronger. 😈"
     },
     {
-      "url": "wallStreetFighter/index.html",
+      "url": "games/wallStreetFighter/index.html",
       "text": "WallStreet Fighter",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/WS-Fighter-transformed.png?v=1672018945551",
       "altText": "WallStreetFighter"
     },
     {
-      "url": "freewayRun/index.html",
+      "url": "games/freewayRun/index.html",
       "text": "Freeway Run",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/SMALLERTITLE_FWR.png?v=1672019273037"
     },
     {
-      "url": "parkouringStickman/index.html",
+      "url": "games/parkouringStickman/index.html",
       "text": "Parkouring Stick-Man",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/StickmanCover.png?v=1672019682131"
     },
     {
-      "url": "tronPatrol/index.html",
+      "url": "games/tronPatrol/index.html",
       "text": "Tron patrol",
       "img": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/TronPatrol1_clipdrop-enhance%20(1).png?v=1672019417815"
     },
     {
-      "url": "closedDoors/index.html",
+      "url": "games/closedDoors/index.html",
       "text": "Closed Doors",
-      "img": "assets/closedDoors_dev_0.png"
+      "img": "assets/closedDoors_dev_0.png",
+      "gamebio": "Closed doors is a weird, liminal, multiple paths, and multiple endings text adventure twine game. I made this for one of my game design college classes. I honestly had a lot of fun making this because I love making weird abstract stories about the unknown. The theme I first followed in making this story was a simple one like good and bad but it then evolved into more complex themes of curiosity, compassion, empathy, and even defiance. Honestly just play it and tell me what YOU think!"
     }
   ],
   

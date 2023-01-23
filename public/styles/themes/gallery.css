@@ -9,15 +9,26 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 
 :root {
   --avatar-max-width: 160px;
-  --color-bg: #2b99aa;
+  --color-bg: #4d8e68;
   --color-bg-alt: #d7f5ef;
-  --color-text-main: #FFF7B6;
-  --color-primary: #FFF7B6;
+  --color-text-main: #f0efec;
+  --color-primary: #e11919;
   --color-secondary: #1E0909;
   --glitch-gray-5: #4f4f4f;
   --glitch-gray-4: #828282;
   --glitch-gray-3: #bdbdbd;
-  --bio-color: #FFF7B6;
+  --bio-color: #b2f6a1;
+  --game-bio-color: #b2f6a1;
+}
+
+.wrapper {
+  background: var(--color-bg);
+  max-width: 600px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img{
@@ -29,7 +40,8 @@ img{
 
 p.game-bio{
   text-align:left;
-  color: #FFF7B6;
+  font-family: "Segoe UI";
+  color: var(--game-bio-color);
 }
 
 h3.game-bio{
@@ -42,6 +54,8 @@ a.game-bio:link{
   text-align: left;
   transition: .5s ease;
 }
+
+
 
 a.game-bio:hover
 {
@@ -66,15 +80,8 @@ ul.text-link-list :hover span {
 
 body {
   text-align: center;
-  background-color: var(--color-bg);
-}
-
-.wrapper {
-  /* background: var(--color-bg); */
-  /* max-width: 3000px;
-  align-items: center; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
+  /* background-color: var(--color-secondary); */
+  background: var(--color-bg);
 }
 
 .info{
@@ -125,13 +132,13 @@ h3 {
 
 
 h1.link-list{
-  text-align:left;
+  text-align:center;
   line-height: normal;
 }
 
 h3.link-list{
   font-family: "Arial", sans-serif;
-  text-align:left;
+  text-align:center;
 }
 
 
@@ -153,7 +160,7 @@ ul.link-list li {
   border-radius: 2%;
   overflow: hidden;
   margin: 0;
-  font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
+  /* font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace; */
   font-size: 1em;
   text-shadow: 2px 2px #000000;
   text-transform: uppercase;
@@ -206,7 +213,8 @@ ul.link-list a:visited {
 }
 
 .footer {
-  
+  font-family: "Segoe UI";
+  font-size: 1em;
   color: #ffffff;
   border-top: 3px dotted #ffffff;
 }

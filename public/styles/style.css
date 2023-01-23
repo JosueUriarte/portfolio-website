@@ -17,7 +17,7 @@ START Page structure and element resets
   --avatar-max-width: 140px;
 
   /* Fonts for different elements */
-  --font-family: sans-serif;
+  --font-family: Arial;
   --font-family-header: sans-serif;
   --font-family-list: monospace;
 
@@ -49,7 +49,6 @@ START Page structure and element resets
 body {
   font-family: var(--font-family);
   background-color: var(--color-bg);
-  max-width: 100%;
 }
 
 h1,
