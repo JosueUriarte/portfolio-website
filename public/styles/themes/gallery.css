@@ -24,8 +24,8 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 .wrapper {
   background: var(--color-bg);
   max-width: 600px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -101,19 +101,10 @@ body {
   padding-bottom: 20px;
 }
 
-.social-icons{
-  display: inline;
-}
-
-.social-profile-icon path{
-  fill: #000000;
-}
-
-
 /*Header*/
 h1 {
   font-family: "Arial Black", sans-serif;
-  font-size: 2rem;
+  font-size: 1.7rem;
   position: center;
   color: #ffffff;
   text-shadow: 2px 4px #000000;
@@ -212,9 +203,9 @@ ul.link-list a:visited {
   border: solid;
 }
 
-.footer {
+.footer{
+  border-top: 2px dotted #ffffff;
   font-family: "Segoe UI";
   font-size: 1em;
   color: #ffffff;
-  border-top: 3px dotted #ffffff;
 }

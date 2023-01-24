@@ -13,7 +13,7 @@ START Page structure and element resets
 /* A set of default style */
 :root {
   /* Generic sizing for the page */
-  --wrapper-height: 80vh;
+  --wrapper-height: 80px;
   --avatar-max-width: 140px;
 
   /* Fonts for different elements */
@@ -24,20 +24,14 @@ START Page structure and element resets
   /* Colors you'll see cascade through the elements */
 
   /* To set your own use custom-theme.css with `custom-theme` in settings.json `theme` property */
-  --color-bg: #BDBDBD; /* Used for the page body background */
-  --color-bg-alt: #FFFFFF; /* Used for social icons on hover */
-  --color-text-main: #000000; /* List text ann social icons on hover */
-  --color-primary: #FFFFFF; /* Headers and borders */
+  --color-bg: #161515; /* Used for the page body background */
+  --color-bg-alt: #000000; /* Used for social icons on hover */
+  --color-text-main: #585858; /* List text ann social icons on hover */
+  --color-primary: #0b0b0b; /* Headers and borders */
 
   /* These are some Glitch colors you are welcome to use! */
-  --glitch-blue: #2800FF;
-  --glitch-blue-light: #5A78FF;
-  --glitch-pink: #FF7698;
-  --glitch-pink-light: #FEC1EE;
-  --glitch-green: #05F293;
-  --glitch-green-light: #9BE7D8;
-  --glitch-yellow: #FFFF60;
-  --glitch-purple: #9480FF;
+  --social-media-main: #000000;
+  --social-media-hover: #ffffff;
 }
 
 /* Basic page style resets */
@@ -148,22 +142,16 @@ img.postcard {
   position: relative;
 }
 
-/* iframe.itch-box{
-  width: 100%;
-  height: 100%;
-} */
-
 /* Social media icons */
 /* Page will display all icons that have a value in settings.json social object */
 .social-icons {
   justify-content: center;
 }
 .social-icons a:link {
-  border-bottom: none;
   background: transparent;
-  width: 8rem;
-  height: 3rem;
-  margin: 0 0.5rem 1.5rem;
+  width: 3rem;
+  height: 2rem;
+  margin: 0 0.3rem 1.5rem;
 }
 .social-profile-icon {
   width: 2.75rem;
@@ -172,10 +160,11 @@ img.postcard {
 }
 /* Image paths specified in layout/social.html */
 .social-profile-icon path {
-  fill: var(--color-bg-alt);
+  fill: var(--social-media-main);
 }
+
 .social-profile-icon:hover path, .social-profile-icon:focus path {
-  fill: var(--color-text-main);
+  fill: var(--social-media-hover);
 }
 
 /******************************************************************************
