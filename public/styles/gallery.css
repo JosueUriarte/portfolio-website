@@ -9,16 +9,10 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 
 :root {
   --avatar-max-width: 160px;
-  --color-bg: #4d8e68;
-  --color-bg-alt: #d7f5ef;
-  --color-text-main: #f0efec;
-  --color-primary: #e11919;
-  --color-secondary: #1E0909;
-  --glitch-gray-5: #4f4f4f;
-  --glitch-gray-4: #828282;
-  --glitch-gray-3: #bdbdbd;
-  --bio-color: #b2f6a1;
+  --color-bg: #eb8686;
+  --bio-text-color: #ffffff;
   --game-bio-color: #b2f6a1;
+  --header-postcard: #723f3f;
 }
 
 /* Wrapper for the whole page */
@@ -33,15 +27,20 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 
 /* Styling for the top of the page (Avatar/Name/Bio) */
 .info{
-  background-image: url("./assets/closedDoors_dev_0.png");
-  background-color: #23712b;
+  /* background-image: url("/assets/closedDoors_dev_0.png"); */
+  background-position: center;
+  background-color:  var(--header-postcard); 
   display: grid;
-  align-items: center;
-  padding: 50px;
+  align-items: left;
+  
+  padding: 20px;
   border-radius: 10%;
   max-width: 700px;
+  min-height: 10px;
+  max-height: 450px;
   margin-left: auto;
   margin-right: auto;
+  text-align:center;
 }
 
 .avatar {
@@ -49,11 +48,11 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   border-radius: 10%; 
   margin-right: auto;
   align-self: center;
+  text-align:center;
 }
 
 .about {
   text-align:center;
-  padding-bottom: 20px;
 }
 
 img{
@@ -69,17 +68,11 @@ p.game-bio{
   color: var(--game-bio-color);
 }
 
-h3.game-bio{
-  text-align: left;
-  color: #000000;
-}
-
 a.game-bio:link{
   color: #000000;
   text-align: left;
   transition: .5s ease;
 }
-
 
 
 a.game-bio:hover
@@ -121,7 +114,7 @@ h1 {
 h3 {
   font-family: "Tahoma", sans-serif;
   position: center;
-  color: var(--bio-color);
+  color: var(--bio-text-color);
 }
 
 .content {

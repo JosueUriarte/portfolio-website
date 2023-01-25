@@ -21,15 +21,13 @@ START Page structure and element resets
   --font-family-header: sans-serif;
   --font-family-list: monospace;
 
-  /* Colors you'll see cascade through the elements */
-
   /* To set your own use custom-theme.css with `custom-theme` in settings.json `theme` property */
   --color-bg: #161515; /* Used for the page body background */
   --color-bg-alt: #000000; /* Used for social icons on hover */
   --color-text-main: #585858; /* List text ann social icons on hover */
-  --color-primary: #0b0b0b; /* Headers and borders */
+  --color-primary: #723f3f; /* Headers and borders */
 
-  /* These are some Glitch colors you are welcome to use! */
+  /* Colors for the social media icons */
   --social-media-main: #000000;
   --social-media-hover: #ffffff;
 }
@@ -68,26 +66,59 @@ a:not(.btn--remix):visited {
 a:hover, a:active, a:focus {
   color: #000000;
 }
+
+/* Generic Button to a game link */
+.game-link-button {
+  padding: 10px 60px;
+  background-color: rgb(1, 1, 1);
+  color: white;
+  border: 1px solid #000000;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.game-link-button:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+/* Social media icons */
+/* Page will display all icons that have a value in settings.json social object */
+.social-icons {
+  justify-content: center;
+  padding: 10px;
+}
+.social-icons a:link {
+  background: transparent;
+  margin: 0 0.3rem 0;
+}
+.social-profile-icon {
+  width: 2.75rem;
+}
+
+.social-profile-icon path {
+  fill: var(--social-media-main);
+}
+
+.social-profile-icon:hover path, .social-profile-icon:focus path {
+  fill: var(--social-media-hover);
+}
+
 /******************************************************************************
 END Page structure and element resets
 ******************************************************************************/
 
-/******************************************************************************
-START Glitch in Bio default theme
-
-You can create your own CSS file in public/styles/themes
-Select your chosen CSS by adding the theme name (e.g. glitch) in settings.json
-******************************************************************************/
-
-/* Image specified in settings.json avatarImage property */
-
-
 /* Link list content specified in settings.json links array */
+
 ul.link-list {
   margin: 0.5em 0 2.5rem;
   padding-left: 0px;
 }
 ul.link-list {
+  background-color:  var(--color-primary);
+  border-radius: 20px;
+  padding: 20px;
   font-family: var(--font-family-list);
   font-weight: 100;
   list-style: none;
@@ -123,10 +154,6 @@ ul.link-list a span {
   padding-right: 1rem;
 }
 
-.postcard-holder{
-  justify-items: center;
-}
-
 img.postcard {
   max-height: 100%;
   max-width: 100%;
@@ -138,33 +165,26 @@ img.postcard {
   margin: auto;
 }
 
-.itch-wrap {
-  position: relative;
+/*********  Postcard holder and game explanation CSS styling ***********/
+
+.postcard-holder{
+  max-width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Social media icons */
-/* Page will display all icons that have a value in settings.json social object */
-.social-icons {
-  justify-content: center;
-}
-.social-icons a:link {
-  background: transparent;
-  width: 3rem;
-  height: 2rem;
-  margin: 0 0.3rem 1.5rem;
-}
-.social-profile-icon {
-  width: 2.75rem;
-  margin-bottom: 1rem;
-  display: inline-flex;
-}
-/* Image paths specified in layout/social.html */
-.social-profile-icon path {
-  fill: var(--social-media-main);
+.postcard-holder p{
+  padding: 20px;
+  background-color: #3c1b23;
+  border-radius: 20px;
 }
 
-.social-profile-icon:hover path, .social-profile-icon:focus path {
-  fill: var(--social-media-hover);
+.itch-wrap iframe a{
+  width: 100%;
+  display: flex;
+  width: 500px;
+  max-height: 500px;
 }
 
 /******************************************************************************
