@@ -21,9 +21,9 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   --game-bio-color: #b2f6a1;
 }
 
+/* Wrapper for the whole page */
 .wrapper {
   background: var(--color-bg);
-  max-width: 600px;
   padding-left: 20px;
   padding-right: 20px;
   align-items: center;
@@ -31,11 +31,36 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   margin-right: auto;
 }
 
+/* Styling for the top of the page (Avatar/Name/Bio) */
+.info{
+  background-image: url("./assets/closedDoors_dev_0.png");
+  background-color: #23712b;
+  display: grid;
+  align-items: center;
+  padding: 50px;
+  border-radius: 10%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar {
+  max-width: var(--avatar-max-width);
+  border-radius: 10%; 
+  margin-right: auto;
+  align-self: center;
+}
+
+.about {
+  text-align:center;
+  padding-bottom: 20px;
+}
+
 img{
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5%;
+  border-radius: 7%;
 }
 
 p.game-bio{
@@ -82,23 +107,6 @@ body {
   text-align: center;
   /* background-color: var(--color-secondary); */
   background: var(--color-bg);
-}
-
-.info{
-  align-items: center;
-  display: flex;
-}
-
-.avatar {
-  max-width: var(--avatar-max-width);
-  max-height: var(--avatar-max-width);
-  border-radius: 35%;
-  margin-right: 40px;
-}
-
-.about {
-  text-align:left;
-  padding-bottom: 20px;
 }
 
 /*Header*/

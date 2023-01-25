@@ -146,17 +146,14 @@ img.postcard {
 /* Page will display all icons that have a value in settings.json social object */
 .social-icons {
   justify-content: center;
+  padding: 10px;
 }
 .social-icons a:link {
   background: transparent;
-  width: 3rem;
-  height: 2rem;
-  margin: 0 0.3rem 1.5rem;
+  margin: 0 0.3rem 0;
 }
 .social-profile-icon {
   width: 2.75rem;
-  margin-bottom: 1rem;
-  display: inline-flex;
 }
 /* Image paths specified in layout/social.html */
 .social-profile-icon path {
