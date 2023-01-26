@@ -15,7 +15,7 @@
     
     <meta name="theme-color" content="#9480FF"/>
     
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="data:application/json;base64,ew0KICAibmFtZSI6ICJKb3N1ZSBVcmlhcnRlJ3MgUG9ydGZvbGlvIiwNCiAgInNob3J0X25hbWUiOiAiSm9zdWVzIFBvcnRmb2xpbyIsDQogICJkZXNjcmlwdGlvbiI6ICJUaGUgc3Rvcnkgb2YgbjN3dC4iLA0KICAiaWNvbnMiOiBbDQogICAgew0KICAgICAgInNpemVzIjogIjgwMHg4MDAiLA0KICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIiwNCiAgICAgICJzcmMiOiAiaHR0cHM6Ly9jZG4uZ2xpdGNoLmdsb2JhbC8yMzk1OGEwNy0zNWY4LTQyZjktOGVmMC03ZDEzMjA5YjExNDEvcHJvZmlsZVBpY3R1cmUucG5nP3Y9MTY3MTc5MzM4NTcwNiIsDQogICAgICAicHVycG9zZSI6ICJhbnkiDQogICAgfSwNCiAgICB7DQogICAgICAic2l6ZXMiOiAiMTgweDE4MCIsDQogICAgICAidHlwZSI6ICJpbWFnZS9wbmciLA0KICAgICAgInNyYyI6ICJodHRwczovL2Nkbi5nbGl0Y2guZ2xvYmFsLzIzOTU4YTA3LTM1ZjgtNDJmOS04ZWYwLTdkMTMyMDliMTE0MS9wcm9maWxlUGljdHVyZS5wbmc/dj0xNjcxNzkzMzg1NzA2IiwNCiAgICAgICJwdXJwb3NlIjogIm1hc2thYmxlIg0KICAgIH0NCiAgXSwNCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsDQogICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNEN0Y1RUYiLA0KICAidGhlbWVfY29sb3IiOiAiIzk0ODBGRiIsDQogICJzdGFydF91cmwiOiAiLyINCn0=">
     <script>
     if(location.protocol == 'http:') location.protocol = 'https:';
     if('serviceWorker' in navigator) {
@@ -256,7 +256,7 @@
         </div>
 
         <h3 class="game-link">
-          <a class="game-bio" href="closedDoors.html"> Play Closed Doors </a>
+          <button class="game-link-button" onclick="window.location.href='closedDoors.html'"> Play Closed Doors </button>
         </h3>
         
         <div class="footer">
