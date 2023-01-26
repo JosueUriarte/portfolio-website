@@ -9,10 +9,16 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 
 :root {
   --avatar-max-width: 160px;
-  --color-bg: #60816f;
-  --bio-text-color: #d3fee4;
-  --game-bio-color: #ffffff;
-  --postcard-colors: #045e52;
+  --color-bg: #476754;
+  --color-bg-alt: #d7f5ef;
+  --color-text-main: #f0efec;
+  --color-primary: #8c3636;
+  --color-secondary: #1E0909;
+  --glitch-gray-5: #4f4f4f;
+  --glitch-gray-4: #828282;
+  --glitch-gray-3: #bdbdbd;
+  --bio-color: #d7efd1;
+  --postcard-bio-color: #ffffff;
 }
 
 /* Wrapper for the whole page */
@@ -27,20 +33,15 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 
 /* Styling for the top of the page (Avatar/Name/Bio) */
 .info{
-  /* background-image: url("/assets/closedDoors_dev_0.png"); */
-  background-position: center;
-  background-color:  var(--postcard-colors); 
+  background-image: url("./assets/closedDoors_dev_0.png");
+  background-color: #23712b;
   display: grid;
-  align-items: left;
-  
-  padding: 20px;
+  align-items: center;
+  padding: 50px;
   border-radius: 10%;
   max-width: 700px;
-  min-height: 10px;
-  max-height: 450px;
   margin-left: auto;
   margin-right: auto;
-  text-align:center;
 }
 
 .avatar {
@@ -48,11 +49,11 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   border-radius: 10%; 
   margin-right: auto;
   align-self: center;
-  text-align:center;
 }
 
 .about {
   text-align:center;
+  padding-bottom: 20px;
 }
 
 img{
@@ -63,38 +64,14 @@ img{
 }
 
 p.game-bio{
+  color: var(--postcard-bio-color);
   text-align:left;
   font-family: "Segoe UI";
-  color: var(--game-bio-color);
 }
 
-/*********  Postcard holder and game explanation CSS styling ***********/
-
-.postcard-holder{
-  background-color: #045e52;
-  padding: 10px;
-  padding-bottom: 10px;
-  max-width: 600px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-}
-
-.postcard-holder p{
-  padding: 20px;
-  color: #ffffff;
-  background-color: var(--postcard-colors);
-  
-}
-.game-link iframe{
-  padding: 10px;
-  display: block;
-  width: 100%;
-  max-height: 63.333vw;
-  max-width: 75vh;
-  margin-left: auto;
-  margin-right: auto;
+h3.game-bio{
+  text-align: left;
+  color: #000000;
 }
 
 a.game-bio:link{
@@ -102,6 +79,8 @@ a.game-bio:link{
   text-align: left;
   transition: .5s ease;
 }
+
+
 
 a.game-bio:hover
 {
@@ -142,7 +121,7 @@ h1 {
 h3 {
   font-family: "Tahoma", sans-serif;
   position: center;
-  color: var(--bio-text-color);
+  color: var(--bio-color);
 }
 
 .content {
