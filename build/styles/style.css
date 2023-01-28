@@ -25,7 +25,7 @@ START Page structure and element resets
   --color-bg: #161515; /* Used for the page body background */
   --color-bg-alt: #000000; /* Used for social icons on hover */
   --color-text-main: #585858; /* List text ann social icons on hover */
-  --color-primary: #723f3f; /* Headers and borders */
+  --color-primary: #045e52; /* Headers and borders */
 
   /* Colors for the social media icons */
   --social-media-main: #000000;
@@ -163,29 +163,6 @@ img.postcard {
   left: 0;
   right: 0;
   margin: auto;
-}
-
-/*********  Postcard holder and game explanation CSS styling ***********/
-
-.postcard-holder{
-  max-width: 600px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.postcard-holder p{
-  padding: 20px;
-  color: #ffffff;
-  background-color: #3c1b23;
-  border-radius: 20px;
-}
-
-.itch-wrap iframe a{
-  width: 100%;
-  display: flex;
-  width: 500px;
-  max-height: 500px;
 }
 
 /******************************************************************************

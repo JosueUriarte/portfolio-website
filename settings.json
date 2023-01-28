@@ -2,7 +2,7 @@
   "metaTitle": "Josue Uriarte",
   "metaDescription": "JosuePFP",
   "name": "Josue A. Uriarte Reyes",
-  "bio": "Hi! \nI design and code video games and stuff. I also studied Computer Science: Game Design at UC Santa Cruz. \n Currently looking for new opportunites to grow as a game developer!",
+  "bio": "Hi! \nI design and code and stuff. I also studied Computer Science: Game Design at UC Santa Cruz. Check out my stuff! \n Currently looking for new opportunites to grow as a game dev!",
   "theme": "gallery",
   "avatarImage": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/profilePicture.png?v=1671793385706",
   
@@ -12,7 +12,7 @@
     {
       "url": "games/grandHeresy/index.html",
       "text": "Grand Heresy",
-      "img":"https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/GH_Logo_Black.png?v=1671841424527",
+      "img":"assets/GH_Logo_Black.png",
       "altText": "Grand Heresy Game",
       "body": "Capstone game",
       "gamebio": "A game that came to be because we wanted to make Helldivers but Ps1 Aesthetics but also DOOM. Grand Heresy was made as my senior year capstone final project and was made alongside a bunch my talented university colleagues! It was super difficult to make as a newbie gameplay programmer but i'm thankful for that because I came out stronger. 😈"

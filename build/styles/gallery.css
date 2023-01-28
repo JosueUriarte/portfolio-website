@@ -9,10 +9,10 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 
 :root {
   --avatar-max-width: 160px;
-  --color-bg: #eb8686;
-  --bio-text-color: #ffffff;
-  --game-bio-color: #b2f6a1;
-  --header-postcard: #723f3f;
+  --color-bg: #60816f;
+  --bio-text-color: #d3fee4;
+  --game-bio-color: #ffffff;
+  --postcard-colors: #045e52;
 }
 
 /* Wrapper for the whole page */
@@ -29,7 +29,7 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 .info{
   /* background-image: url("/assets/closedDoors_dev_0.png"); */
   background-position: center;
-  background-color:  var(--header-postcard); 
+  background-color:  var(--postcard-colors); 
   display: grid;
   align-items: left;
   
@@ -68,12 +68,40 @@ p.game-bio{
   color: var(--game-bio-color);
 }
 
+/*********  Postcard holder and game explanation CSS styling ***********/
+
+.postcard-holder{
+  background-color: #045e52;
+  padding: 10px;
+  padding-bottom: 10px;
+  max-width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.postcard-holder p{
+  padding: 20px;
+  color: #ffffff;
+  background-color: var(--postcard-colors);
+  
+}
+.game-link iframe{
+  padding: 10px;
+  display: block;
+  width: 100%;
+  max-height: 63.333vw;
+  max-width: 75vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a.game-bio:link{
   color: #000000;
   text-align: left;
   transition: .5s ease;
 }
-
 
 a.game-bio:hover
 {
@@ -205,8 +233,12 @@ ul.link-list a:visited {
 }
 
 .footer{
-  border-top: 2px dotted #ffffff;
+  padding-top: 10px;
   font-family: "Segoe UI";
   font-size: 1em;
   color: #ffffff;
+}
+
+.tagline {
+  border-top: 2px dotted #ffffff;
 }
