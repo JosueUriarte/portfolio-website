@@ -233,8 +233,12 @@ ul.link-list a:visited {
 }
 
 .footer{
-  border-top: 2px dotted #ffffff;
+  padding-top: 10px;
   font-family: "Segoe UI";
   font-size: 1em;
   color: #ffffff;
+}
+
+.tagline {
+  border-top: 2px dotted #ffffff;
 }
