@@ -37,7 +37,7 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   border-radius: 10%;
   max-width: 700px;
   min-height: 10px;
-  max-height: 450px;
+  max-height: 560px;
   margin-left: auto;
   margin-right: auto;
   text-align:center;
@@ -92,7 +92,7 @@ p.game-bio{
   display: block;
   width: 100%;
   max-height: 63.333vw;
-  max-width: 75vh;
+  max-width: 60vh;
   margin-left: auto;
   margin-right: auto;
 }

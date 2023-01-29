@@ -42,8 +42,13 @@
       "url": "games/closedDoors/index.html",
       "text": "Closed Doors",
       "img": "assets/closedDoors_dev_0.png",
-      "gamebio": "Closed doors is a weird, liminal, multiple paths, and multiple endings text adventure twine game. I made this for one of my game design college classes. I honestly had a lot of fun making this because I love making weird abstract stories about the unknown. The theme I first followed in making this story was a simple one like good and bad but it then evolved into more complex themes of curiosity, compassion, empathy, and even defiance. Honestly just play it and tell me what YOU think!"
+      "gamebio": "Closed doors is a weird, liminal, multiple paths, and multiple endings text adventure twine game. I made this for one of my game design college classes and I had a lot of fun making this because I love making weird abstract stories about the unknown. I was heavily inspired from various themes like from Portal and Mirrors Edge but honestly just try it out, the theme is up to interpretation!"
     }
+  ],
+
+  "galleryimages": [
+    "assets/picture_1.png",
+    "assets/picture_2.png"
   ],
   
   "textlinks": [

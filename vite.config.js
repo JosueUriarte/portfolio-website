@@ -46,6 +46,7 @@ export default defineConfig(({ command, mode }) => {
             doors: resolve(__dirname, "games/closedDoors/index.html"),
             stick: resolve(__dirname, "games/parkouringStickman/index.html"),
             tron: resolve(__dirname, "games/tronPatrol/index.html"),
+            //js: resolve(__dirname, "main.js"),
           }
         }
       },
