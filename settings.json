@@ -2,13 +2,19 @@
   "metaTitle": "Josue Uriarte",
   "metaDescription": "JosuePFP",
   "name": "Josue A. Uriarte Reyes",
-  "bio": "Hi! \nI design and code and stuff. I also studied Computer Science: Game Design at UC Santa Cruz. Check out my stuff! \n Currently looking for new opportunites to grow as a game dev!",
+  "bio": "Hi! \nI design and code and stuff. I also studied Computer Science: Game Design at UC Santa Cruz. Check out my stuff! \n Currently looking for new opportunites to grow as a Software Engineer!",
   "theme": "gallery",
   "avatarImage": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/profilePicture.png?v=1671793385706",
   
-  "linkHeader": "University Projects 🐌",
-  "linkbio": "Collection of games I worked on during my time at UC Santa Cruz",
+  "linkHeader": "Game Projects",
+  "linkbio": " ",
   "links": [
+    {
+      "url": "https://n3wtworldorder.itch.io/gdko23-round-2",
+      "text": "StayTuned!",
+      "img": "assets/stayTuned_1.png",
+      "gamebio": ""
+    },
     {
       "url": "games/grandHeresy/index.html",
       "text": "Grand Heresy",

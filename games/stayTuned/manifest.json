@@ -1,0 +1,23 @@
+{
+  "name": "Josue Uriarte's Portfolio",
+  "short_name": "Josues Portfolio",
+  "description": "The story of n3wt.",
+  "icons": [
+    {
+      "sizes": "800x800",
+      "type": "image/png",
+      "src": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/profilePicture.png?v=1671793385706",
+      "purpose": "any"
+    },
+    {
+      "sizes": "180x180",
+      "type": "image/png",
+      "src": "https://cdn.glitch.global/23958a07-35f8-42f9-8ef0-7d13209b1141/profilePicture.png?v=1671793385706",
+      "purpose": "maskable"
+    }
+  ],
+  "display": "standalone",
+  "background_color": "#D7F5EF",
+  "theme_color": "#9480FF",
+  "start_url": "/"
+}

@@ -27,6 +27,7 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 
 /* Styling for the top of the page (Avatar/Name/Bio) */
 .info{
+  /* UNCOMMMENT BELOW CODE FOR A PICTURE BEHIND THE HEADER INFO*/
   /* background-image: url("/assets/closedDoors_dev_0.png"); */
   background-position: center;
   background-color:  var(--postcard-colors); 
@@ -43,6 +44,7 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   text-align:center;
 }
 
+/* Styling for the picture on top of the main index page */
 .avatar {
   max-width: var(--avatar-max-width);
   border-radius: 10%; 
@@ -51,6 +53,7 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
   text-align:center;
 }
 
+/* Styling for about section on main page */
 .about {
   text-align:center;
 }
@@ -69,12 +72,11 @@ p.game-bio{
 }
 
 /*********  Postcard holder and game explanation CSS styling ***********/
-
 .postcard-holder{
   background-color: #045e52;
   padding: 10px;
   padding-bottom: 10px;
-  max-width: 600px;
+  max-width: 800px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -126,7 +128,6 @@ ul.text-link-list :hover span {
 
 body {
   text-align: center;
-  /* background-color: var(--color-secondary); */
   background: var(--color-bg);
 }
 
@@ -147,7 +148,7 @@ h3 {
 
 .content {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 1000px;
 }
 
 
@@ -166,10 +167,10 @@ ul.link-list {
   display: grid;
   grid-gap: 10px;
 }
-@media (min-width: 400px) {
+@media (min-width: 650px) {
   ul.link-list {
     /*Define our columns */
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
 }
@@ -180,7 +181,6 @@ ul.link-list li {
   border-radius: 2%;
   overflow: hidden;
   margin: 0;
-  /* font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace; */
   font-size: 1em;
   text-shadow: 2px 2px #000000;
   text-transform: uppercase;
@@ -207,6 +207,7 @@ ul.link-list a:focus span {
   opacity: 1;
   transform: scale(1.5);
 }
+
 /* Add urls for any images you want to display in settings.json for each link */
 ul.link-list a img {
   display: block;
